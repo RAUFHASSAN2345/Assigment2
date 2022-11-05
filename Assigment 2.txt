@@ -1,0 +1,115 @@
+void main() {
+
+                print("Question 1");
+  int length=5;
+  int breath=10;
+  if(length==breath){
+    print("its square");
+  }
+  else{
+    print("its rectangle");
+  }
+ 
+                print("Question 2");
+ int people1=50;
+ int people2=90;
+ int people3=40;
+  if(people1< people2 && people1<people3){
+    print("People One Youngest");
+  }
+    else if(people2< people3 && people2<people1){
+    print("People Two Youngest");
+  }
+      else if(people3< people1 && people3<people2){
+    print("People Three Youngest");
+  }
+  else {
+    print("Some Ages are Equal");
+  }
+ 
+       print("Question 3");
+  int numberOfClassesHeld=16;
+  int numberOfClassesAttended=10;
+  double percentageOfClassAttended=numberOfClassesAttended*100/numberOfClassesHeld;
+  print(percentageOfClassAttended);
+  if(percentageOfClassAttended<75){
+    print("Is student is not allowed to sit in exam");
+  }  
+else{
+  print("Is student is allowed to sit in exam");
+}
+  
+        print("Question 4");
+int year=1900;
+if(year%4 == 0){
+  print("Its a leap year");
+}
+else{
+  print("Its not a leap year");
+} 
+
+        print("Question 5");
+  num temperature=42;
+  if(temperature<0){
+    print("Freezing Weather");
+  }
+  else if(temperature>0&&temperature<=10){
+    print("Very cold weather");
+  }
+  else if(temperature>10&&temperature<=20){
+    print("cold weather");
+  }
+  else if(temperature>20&&temperature<=30){
+   print("Normal temperature"); 
+  }
+    else if(temperature>30&&temperature<=40){
+   print("Hot temperature"); 
+  }
+    else if(temperature>=40){
+   print("Very hot temperature"); 
+  }
+
+  
+        print("Question 6");
+ var  string="B";
+  
+  if(string == 'a' || string == 'A' || string == 'i' || string == 'I' || string == 'e' || string == 'E' || string == 'o' || string == 'O' || string == 'u' || string == 'U'){
+    print("Its Vowel");
+  }
+  else {
+     print("Its Consonant");
+  }
+  
+        print("Question 7");
+ int consumerId=1245;
+ var consumerName="Rauf";
+ int unit=4000;
+ double billAmount = 0;
+ double perUnit = 0;
+  
+  if(unit>=1&&unit<200){
+    billAmount = unit * 1.20;
+    perUnit = 1.20;
+  }
+  else if (unit>=200&&unit<400){
+    billAmount = unit*1.50;
+    perUnit = 1.50;
+  }
+  else if(unit >=400 && unit < 600){
+    billAmount = unit * 1.80;
+    perUnit = 1.80;
+  }
+  else{
+    billAmount  = unit * 2.00;
+    perUnit = 2.00;
+  }
+  
+  
+  print("**************Electrictity Bill**************");
+  print("ConsumerID  :${consumerId} ");
+  print("Consumer Name  :${consumerName} ");
+  print("Unit Consumed  : ${unit} ");
+  print("Amount Charges  : @${perUnit} per unit : ${unit} ");
+  print("Net Bill Amount  : ${billAmount} ");
+   print("**************Electrictity Bill**************");
+ }
